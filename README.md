@@ -51,3 +51,5 @@ You can access the deployed **Streamlit** application using the link below:
 🔗 **[Watch the YouTube video here](https://www.youtube.com/watch?v=ZXTyox6qDEk)**
 
 The app allows users to upload an image, and the model will predict whether the person is wearing a mask or not.
+
+---
