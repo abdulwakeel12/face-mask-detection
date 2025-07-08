@@ -44,12 +44,12 @@ The model processes an image, performs feature extraction using CNN layers, and 
 
 You can access the deployed **Streamlit** application using the link below:
 
-🔗 **[Face Mask Detection App](https://your-username-your-repository-name-your-app-path.streamlit.app/)**
+🔗 **[Face Mask Detection App](https://face-mask-detection-i6ielsm7ljyyif5vdatdw9.streamlit.app/)**
 
 ### Watch the video demo below:
 
 <video width="640" height="360" controls>
-  <source src="https://github.com/abdulwakeel12/face-mask-detection/raw/main/Demo.webm" type="video/webm">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZXTyox6qDEk" frameborder="0" allowfullscreen></iframe>
 </video>
 
 The app allows users to upload an image, and the model will predict whether the person is wearing a mask or not.
