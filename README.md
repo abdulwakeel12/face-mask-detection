@@ -46,8 +46,8 @@ You can access the deployed **Streamlit** application using the link below:
 
 🔗 **[Face Mask Detection App](https://face-mask-detection-i6ielsm7ljyyif5vdatdw9.streamlit.app/)**
 
-### Watch the video demo below:
+### Watch the video demo below: "https://www.youtube.com/embed/ZXTyox6qDEk"
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/ZXTyox6qDEk" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="" frameborder="0" allowfullscreen></iframe>
 
 The app allows users to upload an image, and the model will predict whether the person is wearing a mask or not.
