@@ -3,3 +3,4 @@ tensorflow
 numpy
 pillow
 matplotlib
+git+https://github.com/git-lfs/git-lfs.git  # Add this if using Git LFS for large files
