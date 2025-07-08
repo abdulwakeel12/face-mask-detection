@@ -1,85 +1,53 @@
+# 😷 Face Mask Detection Using CNN
 
-# Face Mask Detection using CNN
-
-This project uses a **Convolutional Neural Network (CNN)** to detect whether a person is wearing a **face mask** or not from an uploaded image. It leverages the **TensorFlow** library to load a pre-trained model and process images using **Streamlit** for a simple web interface.
-
-## Project Timeline
-**June 2025 - June 2025**
+**📆 Duration:** June 2025  
+**🎯 Purpose:** The goal of this project is to build a machine learning model using **Convolutional Neural Networks (CNN)** to predict whether a person is wearing a **face mask** or not. The project includes a deployed **Streamlit web app** that allows users to interactively upload images for real-time predictions.
 
 ---
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
-- [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+## 📌 Project Description
 
-## Project Overview
+This project uses a pre-trained **CNN model** to detect face masks in images. The workflow includes:
 
-The **Face Mask Detection** app is designed to help detect whether a person is wearing a mask. The app uses a **CNN-based model** that classifies images into two categories: **Mask** and **No Mask**. The app is built using **Streamlit** for the frontend interface, making it interactive and easy to use.
+- Data collection and preprocessing
+- Model training using TensorFlow
+- Deployment of a Streamlit web app
 
-The model is trained using a large dataset of images that have been labeled with either "with mask" or "without mask," and **TensorFlow** is used for the machine learning model.
+This project serves as an interactive and easy-to-use face mask detection system. The goal is to demonstrate how to deploy machine learning models with **Streamlit** and implement a useful real-time prediction tool.
 
-## Technologies Used
+---
 
-- **Streamlit**: For creating the interactive user interface of the app.
-- **TensorFlow**: For building and using the machine learning model to detect masks.
-- **NumPy**: For numerical operations and image data processing.
-- **Pillow**: For handling image files and processing them before feeding them into the model.
+## ⚙️ Technologies and Tools
 
-## How It Works
+| Category        | Tools/Frameworks                      |
+|----------------|----------------------------------------|
+| Programming     | Python                                |
+| Data Handling   | TensorFlow, NumPy, Pandas             |
+| Image Processing| Pillow, OpenCV                        |
+| Visualization   | Streamlit                             |
+| Deployment      | Streamlit                             |
 
-1. **Image Upload**: Users can upload an image (JPEG, PNG, JPG) to the app.
-2. **Model Prediction**: Once the image is uploaded, it is resized to 224x224 pixels and normalized before being passed through the pre-trained model.
-3. **Prediction Output**: The model predicts whether the person is wearing a **mask** or not and displays the result on the app.
+---
 
-## Installation
+## 🧠 Machine Learning Model
 
-To run this app locally, follow the steps below.
+The model used in this project is a **Convolutional Neural Network (CNN)**, which has been trained to distinguish between images of people wearing masks and those without masks.
 
-### 1. Clone the repository:
+### Features Used:
+- Image pixels (resized to 224x224 for model input)
 
-```bash
-git clone https://github.com/your-username/face-mask-detection.git
-```
+The model processes an image, performs feature extraction using CNN layers, and then classifies it as either "Mask" or "No Mask" based on the output.
 
-### 2. Install dependencies:
+---
 
-Create a **virtual environment** (optional but recommended):
+## 🌐 Live Demo
 
-```bash
-python -m venv venv
-```
+You can access the deployed **Streamlit** application using the link below:
 
-Activate the virtual environment:
+🔗 **[Face Mask Detection App](https://your-username-your-repository-name-your-app-path.streamlit.app/)**
 
-- On **Windows**:
-  ```bash
-  venv\Scriptsctivate
-  ```
-- On **macOS/Linux**:
-  ```bash
-  source venv/bin/activate
-  ```
+The app allows users to upload an image, and the model will predict whether the person is wearing a mask or not.
 
-Then install the required dependencies:
+![App Screenshot](path-to-screenshot.png)  <!-- Replace path-to-screenshot.png with your actual screenshot path -->
 
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Running the App Locally:
-To run the app locally, use the following command:
-
-```bash
-streamlit run app.py
-```
-
-This will start the **Streamlit** server and open the app in your browser.
-
-### Upload an Image:
-Once the app is running, click on **"Choose an image..."** to upload an image for mask detection. The model will classify the image as either **Mask** or **No Mask**.
+---
