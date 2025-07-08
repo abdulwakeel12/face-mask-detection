@@ -50,7 +50,6 @@ You can access the deployed **Streamlit** application using the link below:
 
 <video width="640" height="360" controls>
   <source src="https://github.com/abdulwakeel12/face-mask-detection/raw/main/Demo.webm" type="video/webm">
-  Your browser does not support the video tag.
 </video>
 
 The app allows users to upload an image, and the model will predict whether the person is wearing a mask or not.
