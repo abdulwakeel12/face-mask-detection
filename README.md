@@ -48,12 +48,6 @@ You can access the deployed **Streamlit** application using the link below:
 
 ### Watch the video demo below:
 
-<video width="640" height="360" controls>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZXTyox6qDEk" frameborder="0" allowfullscreen></iframe>
-</video>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ZXTyox6qDEk" frameborder="0" allowfullscreen></iframe>
 
 The app allows users to upload an image, and the model will predict whether the person is wearing a mask or not.
-
-![App Screenshot](path-to-screenshot.png)  <!-- Replace path-to-screenshot.png with your actual screenshot path -->
-
----
