@@ -73,7 +73,6 @@ pip install -r requirements.txt
 ## Usage
 
 ### Running the App Locally:
-
 To run the app locally, use the following command:
 
 ```bash
@@ -83,9 +82,4 @@ streamlit run app.py
 This will start the **Streamlit** server and open the app in your browser.
 
 ### Upload an Image:
-
 Once the app is running, click on **"Choose an image..."** to upload an image for mask detection. The model will classify the image as either **Mask** or **No Mask**.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
